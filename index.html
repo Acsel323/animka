@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    .emoji {
+      width: 160px;
+      height: 160px;
+      left: 2px;
+      display: block;
+      position: relative;
+      background: url('images/smile.png');
+
+    }
+    .emoji-g{
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('images/глаза.png');
+      /* background-position: -640px top; */
+      animation: glaza 2s steps(1) infinite;
+    }
+    .emoji-m{
+      width: 148px;
+      height: 148px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('images/рот.png');
+      background-position: -148px top;
+      animation: rot 2s steps(1) infinite;
+    }
+    .emoji-b{
+      width: 148px;
+      height: 148px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('images/брови.png');
+      background-position: -640px top;
+      animation: brovi 2s steps(1) infinite;
+    }
+    .emoji-r{
+      width: 148px;
+      height: 148px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('images/руки.png');
+      background-position: -148px top;
+      animation: ruki 2s steps(1) infinite;
+    }
+
+    @keyframes glaza {
+     0% {background-position: 0px 0px;}
+     5% {background-position: -148px 0px;}
+     10% {background-position: -296px 0px;}
+     15% {background-position: -444px 0px;}
+     20% {background-position: -592px 0px;}
+     25% {background-position: -740px 0px;}
+     30% {background-position: -888px 0px;}
+     35% {background-position: -1036px 0px;}
+     40% {background-position: -1184px 0px;}
+     45% {background-position: 0px -148px;}
+     50% {background-position: -148px -148px;}
+     55% {background-position: -296px -148px;}
+     60% {background-position: -444px -148px;}
+     65% {background-position: -592px -148px;}
+     70% {background-position: -740px -148px;}
+     75% {background-position: -888px -148px;}
+     80% {background-position: -1036px -148px;}
+     85% {background-position: -1184px -148px;}
+    }
+    @keyframes rot {
+      0% {background-position: 0px 0px;}
+      6% {background-position: -148px 0px;}
+      12% {background-position: -296px 0px;}
+      18% {background-position: -444px 0px;}
+      24% {background-position: 0px -148px;}
+      30% {background-position: -148px -148px;}
+      36% {background-position: -296px -148px;}
+      42% {background-position: -444px -148px;}
+      48% {background-position: 0px -296px;}
+      54% {background-position: -148px -296px;}
+      60% {background-position: -296px -296px;}
+      66% {background-position: -444px -296px;}
+      72% {background-position: 0px -444px;}
+      78% {background-position: -148px -444px;}
+      84% {background-position: -296px -444px;}
+      90% {background-position: -444px -444px;}
+     }
+    @keyframes brovi {
+      10% {background-position: 0px 0px;}
+      20% {background-position: -592px 0px;}
+      30% {background-position: -148px 0px;}
+      40% {background-position: -592px 0px;}
+      50% {background-position: -296px 0px;}
+      60% {background-position: -592px 0px;}
+      70% {background-position: -444px 0px;}
+    }
+    @keyframes ruki {
+      0% {background-position: 0px 0px;}
+      5% {background-position: -148px 0px;}
+      10% {background-position: -296px 0px;}
+      15% {background-position: -444px 0px;}
+      20% {background-position: -592px 0px;}
+      25% {background-position: -740px 0px;}
+      30% {background-position: -888px 0px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">
+  <div class="emoji-g"></div>
+  <div class="emoji-m"></div>
+  <div class="emoji-r"></div>
+  <div class="emoji-b"></div>
+  </div>
+
+</body>
+</html>
